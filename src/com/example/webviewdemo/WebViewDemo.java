@@ -13,6 +13,6 @@ public class WebViewDemo extends Activity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         WebView myWebView = (WebView) findViewById(R.id.webview);
-        myWebView.loadUrl("http://www.google.com");
+        myWebView.loadUrl("file:///android_asset/index.html");
     }
 }
