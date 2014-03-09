@@ -1,15 +1,14 @@
 minimal demo of android webview
 
 
-
 compile:
 
-  ant debug
+    ant debug
   
   
 install:
 
-  adb -d install ./bin/WebViewDemo-debug.apk
+    adb -d install ./bin/WebViewDemo-debug.apk
   
   
 references:
