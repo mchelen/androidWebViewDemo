@@ -2,6 +2,8 @@ minimal demo of android webview
 
 loads local html file from `assets` directory
 
+runs javascript
+
 compile:
 
     ant debug
