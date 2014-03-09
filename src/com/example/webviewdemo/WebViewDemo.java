@@ -2,6 +2,7 @@ package com.example.webviewdemo;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.webkit.WebView;
 
 public class WebViewDemo extends Activity
 {
@@ -11,5 +12,7 @@ public class WebViewDemo extends Activity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+        WebView myWebView = (WebView) findViewById(R.id.webview);
+        myWebView.loadUrl("http://www.google.com");
     }
 }
