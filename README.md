@@ -8,7 +8,7 @@ compile:
   
 install:
 
-    adb -d install ./bin/WebViewDemo-debug.apk
+    adb -d install -r ./bin/WebViewDemo-debug.apk
   
   
 references:
