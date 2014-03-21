@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.webkit.WebView;
 import android.webkit.WebSettings;
+import android.content.ContextWrapper;
+import android.content.pm.ActivityInfo;
 
 public class WebViewDemo extends Activity
 {
@@ -16,6 +18,7 @@ public class WebViewDemo extends Activity
         WebView myWebView = (WebView) findViewById(R.id.webview);
         WebSettings webSettings = myWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         myWebView.loadUrl("file:///android_asset/index.html");
     }
 }
