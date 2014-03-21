@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.webkit.WebView;
 import android.webkit.WebSettings;
-import android.content.ContextWrapper;
 import android.content.pm.ActivityInfo;
 
 public class WebViewDemo extends Activity
